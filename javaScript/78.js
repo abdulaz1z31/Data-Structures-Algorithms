@@ -7,9 +7,7 @@ var subsets = function (nums) {
   
     for (let i = 0; i < nums.length; i++) {
       let len = mas.length;
-      for (let j = 0; j < len; j++) {
-        console.log([...mas[i]]);
-        
+      for (let j = 0; j < len; j++) {        
         mas.push([...mas[j], nums[i]]);
       }
     }
